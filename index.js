@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // כאן אנחנו משתמשים בפקג' שביקשו
-const sdk = require('api')('@render-api/v1.0#dnrc1ulqh04b3e');
+const sdk = require('api')('@render-api/v1.0#109151jlz214y52');
 
 // הגדרה שתשתמש במפתח שנשמור במשתני הסביבה (לא לכתוב כאן את המפתח האמיתי!)
 sdk.auth(process.env.RENDER_API_KEY);
